@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: IMAGE_NAME-service
+spec:
+  ports:
+  - protocol: TCP
+    port: 5050
+    nodePort: 30010
+  type: NodePort
+  selector: 
+    role: api-IMAGE_NAME
+    env: production

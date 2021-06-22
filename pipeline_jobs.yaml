@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Pod
+metadata:
+labels:
+  component: ci
+spec:
+  # Use service account that can deploy to all namespaces
+  serviceAccountName: jenkins
+  containers:
+  - name: python
+    image: python:3.7-stretch #debian stretch (full image)
+    command:
+    - cat
+    tty: true
+  - name: gcloud
+    image: gcr.io/cloud-builders/gcloud-slim #debian (slim image)
+    command:
+    - cat
+    tty: true
+  - name: kubectl
+    image: gcr.io/cloud-builders/kubectl #based gcloud-slim 
+    command:
+    - cat
+    tty: true
