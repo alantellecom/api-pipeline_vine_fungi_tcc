@@ -4,7 +4,7 @@ from mlflow.entities import ViewType
 import mlflow
 import os 
 
-client = MlflowClient('experiments/mlruns')
+client = MlflowClient('validate_model/mlruns')
 
 experiments = client.list_experiments(view_type=ViewType.ACTIVE_ONLY)
 

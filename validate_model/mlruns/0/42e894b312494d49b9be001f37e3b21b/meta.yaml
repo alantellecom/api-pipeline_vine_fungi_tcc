@@ -1,0 +1,15 @@
+artifact_uri: file:///home/alan/Documents/lab/TCC/experiments/mlruns/0/42e894b312494d49b9be001f37e3b21b/artifacts
+end_time: 1623436758174
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+name: ''
+run_id: 42e894b312494d49b9be001f37e3b21b
+run_uuid: 42e894b312494d49b9be001f37e3b21b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1623436755861
+status: 3
+tags: []
+user_id: alan

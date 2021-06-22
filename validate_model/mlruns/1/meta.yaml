@@ -1,0 +1,4 @@
+artifact_location: file:///home/alan/Documents/lab/TCC/experiments/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: CNN with Transfer Learning
